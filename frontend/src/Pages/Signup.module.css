@@ -1,0 +1,291 @@
+/* -------------------------------------- Main Container -------------------------------------- */
+
+.MainContainer
+{
+    margin-top: 20px;
+    width: 100%;
+    height: 700px;
+
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+    /* background-color: rebeccapurple; */
+}
+
+
+/* -------------------------------------- Form Container -------------------------------------- */
+
+
+.FormContainer
+{
+    width: 60%;
+    height: 80%;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+
+/* -------------------------------------- Full Name Input Container -------------------------------------- */
+
+
+.FullNameSection
+{
+    width: 80%;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    /* background-color: red; */
+}
+
+
+/* -------------------------------------- First Name Container -------------------------------------- */
+
+
+.FirstNameSection
+{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+
+/* -------------------------------------- First Name Label -------------------------------------- */
+
+
+.FirstNameLabel
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* -------------------------------------- First Name Input -------------------------------------- */
+
+
+.FirstNameInput
+{
+    width: 90%;
+    height: 40px;
+
+    font-size: 18px;
+    border:1px solid black;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* -------------------------------------- Last Name Container -------------------------------------- */
+
+
+.LastNameSection
+{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+
+/* -------------------------------------- Last Name Label -------------------------------------- */
+
+
+.LastNameLabel
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* -------------------------------------- Last Name Input -------------------------------------- */
+
+
+.LastNameInput
+{
+    width: 90%;
+    height: 40px;
+
+    font-size: 18px;
+    border:1px solid black;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* -------------------------------------- Email Input Container -------------------------------------- */
+
+
+.EmailInputSection
+{
+    margin-top: 5px;
+    width: 80%;
+    height: 100px;
+
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+
+
+/* -------------------------------------- Email Label -------------------------------------- */
+
+
+.EmailLabel
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* -------------------------------------- Email Input -------------------------------------- */
+
+
+.EmailInput
+{
+    margin-top: 5px;
+    width: 99%;
+    height: 40px;
+
+    font-size: 18px;
+    border:1px solid black;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* -------------------------------------- Password Input Container -------------------------------------- */
+
+
+.PasswordInputSection
+{
+    margin-top: 5px;
+
+    width: 80%;
+    height: 100px;
+
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+
+    /* background-color: red; */
+}
+
+
+/* -------------------------------------- Password Label -------------------------------------- */
+
+
+.PasswordLabel
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* -------------------------------------- Password Input -------------------------------------- */
+
+
+.PasswordInput
+{
+    margin-top: 5px;
+    width: 99%;
+    height: 40px;
+
+    font-size: 18px;
+    border:1px solid black;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* -------------------------------------- Password Confirmation Input Container -------------------------------------- */
+
+
+.PasswordConfirmationInputSection
+{
+    /* margin-top: 5px; */
+
+    width: 80%;
+    height: 100px;
+
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+
+    /* background-color: red; */
+}
+
+
+/* -------------------------------------- Password Confirmation Label -------------------------------------- */
+
+
+.PasswordConfirmationLabel
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* -------------------------------------- Password Confirmation Input -------------------------------------- */
+
+
+.PasswordConfirmationInput
+{
+    margin-top: 5px;
+    width: 99%;
+    height: 40px;
+
+    font-size: 18px;
+    border:1px solid black;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* -------------------------------------- Sign up Button -------------------------------------- */
+
+
+.SignUpButtonLink
+{
+    border-radius: 30px;
+}
+
+.SignUpButton
+{
+    width: 200px;
+    height: 50px;
+
+    border: none;
+    border-radius: 30px;
+
+    background-color: rgb(70, 135, 255);
+
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+
+    cursor: pointer;
+}
